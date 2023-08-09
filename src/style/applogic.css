@@ -1,0 +1,60 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100wh;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #282c34;
+    min-height: 100vh;
+    color: white;
+}
+.App-header-i {
+    font-size: calc(10px + 2vmin);
+    text-transform: capitalize;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    min-width: 350px;
+    min-height: 60px;
+    gap: 10;
+    background-color: #6e6c6c;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.increment{
+    border-radius: 2px;
+    border-right: 1px solid #bfbfbf;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0px 20px ;
+    cursor: pointer;
+}
+.number{
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.decrement{
+    border-radius: 2px;
+    border-left: 1px solid #bfbfbf;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0px 20px ;
+    cursor: pointer;
+}
+.reset{
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 10px;
+    background-color: aliceblue;
+    color: black;
+    font-weight: 600;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
